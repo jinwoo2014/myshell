@@ -30,7 +30,7 @@ int main(void)
 		  char *commandArr[MAX_LEN_LINE] = {NULL};
 
 		  // username@hostname
-        printf("%s@%s $ ", getpwuid(getuid()) -> pw_name, hostname);
+        printf("%s@%s$ ", getpwuid(getuid()) -> pw_name, hostname);
 
 		  s = fgets(command, MAX_LEN_LINE, stdin);
         
